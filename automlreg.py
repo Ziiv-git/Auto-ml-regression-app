@@ -4,6 +4,7 @@
 
 import streamlit as st
 import pandas as pd
+from sklearn.utils.testing import ignore_warnings
 from lazypredict.Supervised import LazyRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
